@@ -7,3 +7,5 @@ The main keypoints are:
 - Writing the frams to RAM, not SSD
 - Multiprocessing would be amazing
 - GPU?
+
+Python has de *wand* module that seems promising. I'm sure that for a folder with all files aready, it could be possible to multiprocess the whole thing and obtain the linearized and merged 3chromes directly from the terminal. 
