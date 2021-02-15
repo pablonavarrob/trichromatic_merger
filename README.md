@@ -10,3 +10,7 @@ The main keypoints are:
 - GPU?: accelerate CUDA slicing of the arrays in the MP version. Plan is to read all the files and store them in a massive array, which can then be sliced for merging and storing. This slicing should be done with numpy libraries or even better, with GPU acceleration for better performance.
 
 Python has de *wand* module that seems promising. I'm sure that for a folder with all files aready, it could be possible to multiprocess the whole thing and obtain the linearized and merged 3chromes directly from the terminal. 
+
+I could also write the debayering algorithm myself and, somehow, accelerate it with CUDA.
+Simple processes written here:
+https://www.numbercrunch.de/blog/2020/12/from-numbers-to-images-raw-image-processing-with-python/
