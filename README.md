@@ -14,3 +14,6 @@ Python has de *wand* module that seems promising. I'm sure that for a folder wit
 I could also write the debayering algorithm myself and, somehow, accelerate it with CUDA.
 Simple processes written here:
 https://www.numbercrunch.de/blog/2020/12/from-numbers-to-images-raw-image-processing-with-python/
+
+More information regarding CUDA acceleration:
+https://thedatafrog.com/en/articles/cuda-kernel-python/
